@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/">
+  <channel>
+    <title>No Limit</title>
+    <link>/</link>
+    <description>Recent content on No Limit</description>
+    <generator>Hugo -- 0.139.0</generator>
+    <language>zh-cn</language>
+    <lastBuildDate>Wed, 20 Nov 2024 03:00:39 +0000</lastBuildDate>
+    <atom:link href="/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>TIL</title>
+      <link>/posts/til/</link>
+      <pubDate>Wed, 20 Nov 2024 03:00:39 +0000</pubDate>
+      <guid>/posts/til/</guid>
+      <description>&lt;blockquote&gt;
+&lt;p&gt;TIL Means: &lt;code&gt;Today I Learn&lt;/code&gt;. 也就是 &lt;code&gt;今天学到了什么&lt;/code&gt;&lt;/p&gt;
+&lt;/blockquote&gt;
+&lt;h4 id=&#34;2024-11-20&#34;&gt;2024-11-20&lt;/h4&gt;
+&lt;ol&gt;
+&lt;li&gt;Windows alias 的用法&lt;/li&gt;
+&lt;/ol&gt;
+&lt;div class=&#34;highlight&#34;&gt;&lt;pre tabindex=&#34;0&#34; style=&#34;color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;&#34;&gt;&lt;code class=&#34;language-cmd&#34; data-lang=&#34;cmd&#34;&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;Set-Alias -Name np -Value C:\Windows\notepad.exe
+&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;Get-Alias -Name np
+&lt;/span&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;</description>
+    </item>
+    <item>
+      <title></title>
+      <link>/posts/use-hugo/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>/posts/use-hugo/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>About</title>
+      <link>/about/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>/about/</guid>
+      <description>&lt;p&gt;This is About Page, May Record Some info.&lt;/p&gt;</description>
+    </item>
+  </channel>
+</rss>
