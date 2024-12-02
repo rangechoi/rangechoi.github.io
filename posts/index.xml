@@ -13,8 +13,7 @@
       <link>/posts/wsl2-make-thefuck-faster/</link>
       <pubDate>Mon, 02 Dec 2024 16:40:41 +0800</pubDate>
       <guid>/posts/wsl2-make-thefuck-faster/</guid>
-      <description>&lt;h1 id=&#34;在-wsl2-中加速-thefuck&#34;&gt;在 Wsl2 中加速 Thefuck&lt;/h1&gt;
-&lt;p&gt;在 wsl2 中 使用 &lt;code&gt;Thefuck&lt;/code&gt; 的包，会出现明显的缓慢情况，一边输入命令差不多到实际结果约 &lt;code&gt;24s&lt;/code&gt;左右。&lt;/p&gt;
+      <description>&lt;p&gt;在 wsl2 中 使用 &lt;code&gt;Thefuck&lt;/code&gt; 的包，会出现明显的缓慢情况，一边输入命令差不多到实际结果约 &lt;code&gt;24s&lt;/code&gt;左右。&lt;/p&gt;
 &lt;p&gt;通过&lt;code&gt;fuck --debug&lt;/code&gt; 命令，查看最后实际调用返回信息：&lt;/p&gt;
 &lt;pre tabindex=&#34;0&#34;&gt;&lt;code class=&#34;language-consloe&#34; data-lang=&#34;consloe&#34;&gt;DEBUG: Total took: 0:23:47.934972
 &lt;/code&gt;&lt;/pre&gt;&lt;p&gt;这种情况对于加快和提升效率的人而言，延迟是不可接受的。&lt;/p&gt;
