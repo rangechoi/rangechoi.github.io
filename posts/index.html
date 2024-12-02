@@ -149,6 +149,24 @@
 
 <article class="post-entry"> 
   <header class="entry-header">
+    <h2 class="entry-hint-parent">Wsl2 中加速 Thefuck
+    </h2>
+  </header>
+  <div class="entry-content">
+    <p>在 Wsl2 中加速 Thefuck 在 wsl2 中 使用 Thefuck 的包，会出现明显的缓慢情况，一边输入命令差不多到实际结果约 24s左右。
+通过fuck --debug 命令，查看最后实际调用返回信息：
+DEBUG: Total took: 0:23:47.934972 这种情况对于加快和提升效率的人而言，延迟是不可接受的。
+通过 google 搜索 thefuck work slow on wsl2, 发现前人以前提过的问题：https://github.com/nvbn/thefuck/issues/1036，通过阅读后发现最简单的解决方式为：
+修改 thefuck 安装目录下 const.py 如下内容：
+DEFAULT_SETTINGS = {excluded_search_path_prefixes&#39;: [&#39;/mnt&#39;]} 这样修改后，查看最后实际调用返回信息：
+DEBUG: Total took: 0:00:01.335960 </p>
+  </div>
+  <footer class="entry-footer"><span title='2024-12-02 16:40:41 +0800 +0800'>December 2, 2024</span>&nbsp;·&nbsp;1 min</footer>
+  <a class="entry-link" aria-label="post link to Wsl2 中加速 Thefuck" href="/posts/wsl2-make-thefuck-faster/"></a>
+</article>
+
+<article class="post-entry"> 
+  <header class="entry-header">
     <h2 class="entry-hint-parent">TIL
     </h2>
   </header>
